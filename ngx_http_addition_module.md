@@ -1,0 +1,10 @@
+ 108           0 :         return ngx_http_next_header_filter(r);
+ 112           0 :         return ngx_http_next_header_filter(r);
+ 117           0 :         return NGX_ERROR;
+ 161           0 :                 return NGX_ERROR;
+ 167           0 :         ngx_http_set_ctx(r, NULL, ngx_http_addition_filter_module);
+ 168           0 :         return ngx_http_next_body_filter(r, in);
+ 185           0 :         return rc;
+ 191           0 :         return NGX_ERROR;
+ 220           0 :         return NULL;
+ 250           0 :         return NGX_CONF_ERROR;
